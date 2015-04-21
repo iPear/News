@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">News</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="splash_ad_des">AD on splash page</string>
+    <string name="splash_logo_des">logo on splash page</string>
+    <string name="tv_splash_com">山东科技大学 电物学院 毕业设计 2015</string>
+    <string name="splash_jump">botton to jump</string>
+    <string name="guide_start">开始体验</string>
+    <string name="guidebar_img">GuideBarImg</string>
+    <string name="left_menu_title">列表分类</string>
+    <string name="title_button_left">TitleButtonLeft</string>
+    <string name="title_button_riight">TitleButtonRiight</string>
+    <string name="news_cate_arr">NewsCateArr</string>
+    <string name="default_string">Default</string>
+
+</resources>

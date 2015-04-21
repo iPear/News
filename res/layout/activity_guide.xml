@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GuideActivity" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ImageButton
+            android:id="@+id/ib_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="71dp"
+            android:contentDescription="@string/guide_start"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textSize="20sp"
+            android:visibility="invisible" 
+            android:background="@drawable/guide_start"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/center"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/iv_guidebar_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="14dp"
+            android:layout_toLeftOf="@+id/iv_guidebar_2"
+            android:background="@drawable/guide_bar_1"
+            android:contentDescription="@string/guidebar_img" />
+
+        <ImageView
+            android:id="@id/iv_guidebar_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:layout_toLeftOf="@id/center"
+            android:background="@drawable/guide_bar_no"
+            android:contentDescription="@string/guidebar_img" />
+
+        <ImageView
+            android:id="@+id/iv_guidebar_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/center"
+            android:background="@drawable/guide_bar_no"
+            android:contentDescription="@string/guidebar_img" />
+
+        <ImageView
+            android:id="@+id/iv_guidebar_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_toRightOf="@id/iv_guidebar_3"
+            android:background="@drawable/guide_bar_no"
+            android:contentDescription="@string/guidebar_img" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <view
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1.0"
+        class="com.sdust.news.view.MyViewPager" />
+
+    <RadioGroup
+        android:id="@+id/main_radio"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/button_tab_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="2dp" >
+
+        <RadioButton
+            android:id="@+id/rb_news_center"
+            style="@style/main_tab_bottom"
+            android:background="@drawable/icon_choosen" />
+
+        <RadioButton
+            android:id="@+id/rb_nearby"
+            style="@style/main_tab_bottom"
+            android:background="@drawable/icon_choosen" />
+
+        <RadioButton
+            android:id="@+id/rb_setting"
+            style="@style/main_tab_bottom"
+            android:background="@drawable/icon_choosen" />
+    </RadioGroup>
+
+</LinearLayout>
